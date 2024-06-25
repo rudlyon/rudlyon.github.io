@@ -1,12 +1,6 @@
-// const un = document.getElementById("un");
-// const deux = document.getElementById("deux");
-// const trois = document.getElementById("container-trois");
-// const quatre = document.getElementById("container-quatre");
-// const cinq= document.getElementById("container-cinq");
-// const six= document.getElementById("container-six");
 const container = document.getElementById("container");
 const button = document.getElementById("button");
-const de = document.getElementById("de")
+const de = document.getElementById("de");
 
 
 const rollDice = () => {

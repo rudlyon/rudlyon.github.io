@@ -1,9 +1,24 @@
 body {
+  margin: 0 auto;
+  /* background: url(assets/de-largent.png); */
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   flex-direction: column;
   height: 100vh;
+}
+
+h1 {
+  border: solid 3px black;  
+  font-family: monospace;
+  border-radius: 10px;
+  padding: 10px;
+  background: rgb(138, 187, 138);
+}
+
+img {
+  width: 150px;
+  height: 150px;
 }
 
 .container {
@@ -14,6 +29,7 @@ body {
   height: 100px;
   border: 3px black solid;
   border-radius: 10px;
+  background: rgb(235, 231, 231);
 }
 
 .container-un {
@@ -274,5 +290,13 @@ body {
 }
 
 .button {
-  padding: 10px;
+  text-decoration: none;
+  margin: 0;
+  padding: 10px 20px;
+  font-family: monospace;
+  font-size: large;
+  font-weight: 800;
+  border-radius: 10px;
+  border: 3px solid black
+
 }
