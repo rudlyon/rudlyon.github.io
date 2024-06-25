@@ -1,0 +1,278 @@
+body {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  border: 3px black solid;
+  border-radius: 10px;
+}
+
+.container-un {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 85px;
+  height: 85px;
+  border: 3px black solid;
+  border-radius: 10px;
+}
+
+.un {
+  background: black;
+  width: 12px;
+  height: 12px;
+  border-radius: 200px;
+}
+
+.container-deux {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+  "a ."
+  ". b";
+  justify-items: center;
+  align-items: center;
+  width: 85px;
+  height: 85px;
+  border: 3px black solid;
+  border-radius: 10px;
+}
+
+.deux1 {
+  margin: 5px;
+  background: black;
+  width: 12px;
+  height: 12px;
+  border-radius: 200px;
+  grid-area: a;
+}
+
+.deux2 {
+  margin: 5px;
+  background: black;
+  width: 12px;
+  height: 12px;
+  border-radius: 200px;
+  grid-area: b;
+}
+
+.container-trois {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: 
+  "a . ."
+  ". b ."
+  ". . c";
+  width: 85px;
+  height: 85px;
+  border: 3px black solid;
+  border-radius: 10px;
+}
+
+.trois1 {
+  grid-area: a;
+  background: black;
+  width: 12px;
+  height: 12px;
+  border-radius: 200px;
+}
+
+.trois2 {
+  grid-area: b;
+  background: black;
+  width: 12px;
+  height: 12px;
+  border-radius: 200px;
+}
+
+.trois3 {
+  grid-area: c;
+  background: black;
+  width: 12px;
+  height: 12px;
+  border-radius: 200px;
+}
+
+.container-quatre {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: 
+  "a b"
+  "c d";
+  width: 85px;
+  height: 85px;
+  border: 3px black solid;
+  border-radius: 10px;
+}
+
+.quatre1 {
+  grid-area: a;
+  background: black;
+  width: 12px;
+  height: 12px;
+  border-radius: 200px;
+}
+
+.quatre2 {
+  grid-area: b;
+  background: black;
+  width: 12px;
+  height: 12px;
+  border-radius: 200px;
+}
+
+.quatre3 {
+  grid-area: c;
+  background: black;
+  width: 12px;
+  height: 12px;
+  border-radius: 200px;
+}
+
+.quatre4 {
+  grid-area: d;
+  background: black;
+  width: 12px;
+  height: 12px;
+  border-radius: 200px;
+}
+
+.container-cinq {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: 
+  "a . b"
+  ". c ."
+  "d . e";
+  width: 85px;
+  height: 85px;
+  border: 3px black solid;
+  border-radius: 10px;
+}
+
+.cinq1 {
+  grid-area: a;
+  background: black;
+  width: 12px;
+  height: 12px;
+  border-radius: 200px;
+}
+
+.cinq2 {
+  grid-area: b;
+  background: black;
+  width: 12px;
+  height: 12px;
+  border-radius: 200px;
+}
+
+.cinq3 {
+  grid-area: c;
+  background: black;
+  width: 12px;
+  height: 12px;
+  border-radius: 200px;
+}
+
+.cinq4 {
+  grid-area: d;
+  background: black;
+  width: 12px;
+  height: 12px;
+  border-radius: 200px;
+}
+
+.cinq5 {
+  grid-area: e;
+  background: black;
+  width: 12px;
+  height: 12px;
+  border-radius: 200px;
+}
+
+.container-six {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  grid-template-columns: 1fr 1fr ;
+  grid-template-rows: 1fr 1fr 1fr ;
+  grid-template-areas: 
+  "a  b"
+  "c  d"
+  "e  f";
+  width: 85px;
+  height: 85px;
+  border: 3px black solid;
+  border-radius: 10px;
+}
+
+.six1 {
+  grid-area: a;
+  background: black;
+  width: 12px;
+  height: 12px;
+  border-radius: 200px;
+}
+
+.six2 {
+  grid-area: b;
+  background: black;
+  width: 12px;
+  height: 12px;
+  border-radius: 200px;
+}
+
+.six3 {
+  grid-area: c;
+  background: black;
+  width: 12px;
+  height: 12px;
+  border-radius: 200px;
+}
+
+.six4 {
+  grid-area: d;
+  background: black;
+  width: 12px;
+  height: 12px;
+  border-radius: 200px;
+}
+
+.six5 {
+  grid-area: e;
+  background: black;
+  width: 12px;
+  height: 12px;
+  border-radius: 200px;
+}
+
+.six6 {
+  grid-area: f;
+  background: black;
+  width: 12px;
+  height: 12px;
+  border-radius: 200px;
+}
+
+.button {
+  padding: 10px;
+}
