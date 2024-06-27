@@ -1,24 +1,37 @@
 body {
   margin: 0 auto;
-  /* background: url(assets/de-largent.png); */
-  display: flex;
-  justify-content: space-evenly;
+  background: no-repeat center url(assets/picsou.jpg);
+  /* display: flex; */
+  justify-content: start;
   align-items: center;
   flex-direction: column;
   height: 100vh;
 }
 
 h1 {
-  border: solid 3px black;  
+  border: solid 3px black;
   font-family: monospace;
   border-radius: 10px;
   padding: 10px;
   background: rgb(138, 187, 138);
+  opacity: 50%;
 }
 
-img {
-  width: 150px;
-  height: 150px;
+#nouvelle-image {
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+
+main {
+  /* background: no-repeat center url(/assets/vague-picsou.gif); */
+  /* background-size: 150%; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
 }
 
 .container {
@@ -30,6 +43,7 @@ img {
   border: 3px black solid;
   border-radius: 10px;
   background: rgb(235, 231, 231);
+  opacity: 50%;
 }
 
 .container-un {
@@ -54,8 +68,8 @@ img {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   grid-template-areas:
-  "a ."
-  ". b";
+    "a ."
+    ". b";
   justify-items: center;
   align-items: center;
   width: 85px;
@@ -88,10 +102,10 @@ img {
   align-items: center;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
-  grid-template-areas: 
-  "a . ."
-  ". b ."
-  ". . c";
+  grid-template-areas:
+    "a . ."
+    ". b ."
+    ". . c";
   width: 85px;
   height: 85px;
   border: 3px black solid;
@@ -128,9 +142,9 @@ img {
   align-items: center;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  grid-template-areas: 
-  "a b"
-  "c d";
+  grid-template-areas:
+    "a b"
+    "c d";
   width: 85px;
   height: 85px;
   border: 3px black solid;
@@ -175,10 +189,10 @@ img {
   align-items: center;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
-  grid-template-areas: 
-  "a . b"
-  ". c ."
-  "d . e";
+  grid-template-areas:
+    "a . b"
+    ". c ."
+    "d . e";
   width: 85px;
   height: 85px;
   border: 3px black solid;
@@ -229,12 +243,12 @@ img {
   display: grid;
   justify-items: center;
   align-items: center;
-  grid-template-columns: 1fr 1fr ;
-  grid-template-rows: 1fr 1fr 1fr ;
-  grid-template-areas: 
-  "a  b"
-  "c  d"
-  "e  f";
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas:
+    "a  b"
+    "c  d"
+    "e  f";
   width: 85px;
   height: 85px;
   border: 3px black solid;
@@ -297,6 +311,6 @@ img {
   font-size: large;
   font-weight: 800;
   border-radius: 10px;
-  border: 3px solid black
-
+  border: 3px solid black;
+  opacity: 70%;
 }
