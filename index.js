@@ -15,7 +15,7 @@ const ramasse = () => {
   document.body.style.background =
     "no-repeat center url('/assets/vague-picsou.gif')";
   document.body.style.backgroundSize = "cover";
-  document.getElementById("h1").innerHTML = "RAMASSE LE POT !";
+  document.getElementById("h1").innerHTML = "VOUS REMPORTEZ LA CAGNOTTE !";
 };
 
 const retour = () => {
@@ -106,4 +106,4 @@ const lancer = () => {
   button.disabled = "true";
 };
 
-button.addEventListener("click", (e) => lancer());
+container.addEventListener("click", (e) => lancer());

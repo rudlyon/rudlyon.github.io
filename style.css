@@ -306,7 +306,8 @@ main {
 .button {
   text-decoration: none;
   margin: 0;
-  padding: 10px 20px;
+  width: 100px;
+  height: 100px;
   font-family: monospace;
   font-size: large;
   font-weight: 800;
