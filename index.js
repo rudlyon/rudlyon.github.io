@@ -1,17 +1,14 @@
 // Variables
 
 const container = document.getElementById("container");
-const button = document.getElementById("button");
-const image = document.getElementById("image-source");
-const nouvelleImage = document.getElementById("nouvelle-image");
-const containerImg = document.getElementById("container-img");
+const titre = document.getElementById("h1");
 let resultat = 0;
 
 //fonctions gain pot
 
 const ramasse = () => {
-  button.style.opacity = "20%";
   container.style.opacity = "20%";
+  titre.style.opacity = "60%";
   document.body.style.background =
     "no-repeat center url('/assets/vague-picsou.gif')";
   document.body.style.backgroundSize = "cover";
@@ -19,9 +16,10 @@ const ramasse = () => {
 };
 
 const retour = () => {
-  button.style.opacity = "50%";
   container.style.opacity = "70%";
   document.body.style.background = "no-repeat center url('/assets/picsou.jpg')";
+  document.body.style.backgroundSize = "cover";
+
   document.getElementById("h1").innerHTML = "DÉ SPÉCIAL BONNE PAYE";
 };
 
@@ -95,7 +93,7 @@ const lancer = () => {
   const interval = setInterval(rollDice, 200);
   setTimeout(() => {
     clearInterval(interval);
-    button.disabled = false;
+    // button.disabled = false;
     if (resultat === 6) {
       ramasse();
       setTimeout(() => {
@@ -103,7 +101,7 @@ const lancer = () => {
       }, 10000);
     }
   }, 1000);
-  button.disabled = "true";
+  // button.disabled = "true";
 };
 
 container.addEventListener("click", (e) => lancer());

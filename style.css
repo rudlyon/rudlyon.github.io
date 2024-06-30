@@ -1,33 +1,32 @@
 body {
   margin: 0 auto;
   background: no-repeat center url(assets/picsou.jpg);
-  /* display: flex; */
-  justify-content: start;
+  background-size: cover;
+  display: flex;
+  justify-content: space-evenly;
   align-items: center;
   flex-direction: column;
   height: 100vh;
 }
 
+.titre {
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 h1 {
   border: solid 3px black;
   font-family: monospace;
-  border-radius: 10px;
-  padding: 10px;
+  border-radius: 20px;
+  padding: 20px;
   background: rgb(138, 187, 138);
-  opacity: 50%;
+  opacity: 70%;
 }
 
-#nouvelle-image {
-  width: 100%;
-  height: 100%;
-  display: none;
-}
-
-main {
-  /* background: no-repeat center url(/assets/vague-picsou.gif); */
-  /* background-size: 150%; */
+.main {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   flex-direction: column;
   width: 100%;
@@ -38,10 +37,10 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100px;
-  height: 100px;
-  border: 3px black solid;
-  border-radius: 10px;
+  width: 250px;
+  height: 250px;
+  border: 5px black solid;
+  border-radius: 20px;
   background: rgb(235, 231, 231);
   opacity: 50%;
 }
@@ -50,16 +49,16 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 85px;
-  height: 85px;
+  width: 220px;
+  height: 220px;
   border: 3px black solid;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 .un {
   background: black;
-  width: 12px;
-  height: 12px;
+  width: 30px;
+  height: 30px;
   border-radius: 200px;
 }
 
@@ -72,17 +71,17 @@ main {
     ". b";
   justify-items: center;
   align-items: center;
-  width: 85px;
-  height: 85px;
+  width: 220px;
+  height: 220px;
   border: 3px black solid;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 .deux1 {
   margin: 5px;
   background: black;
-  width: 12px;
-  height: 12px;
+  width: 30px;
+  height: 30px;
   border-radius: 200px;
   grid-area: a;
 }
@@ -90,8 +89,8 @@ main {
 .deux2 {
   margin: 5px;
   background: black;
-  width: 12px;
-  height: 12px;
+  width: 30px;
+  height: 30px;
   border-radius: 200px;
   grid-area: b;
 }
@@ -106,33 +105,33 @@ main {
     "a . ."
     ". b ."
     ". . c";
-  width: 85px;
-  height: 85px;
+  width: 220px;
+  height: 220px;
   border: 3px black solid;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 .trois1 {
   grid-area: a;
   background: black;
-  width: 12px;
-  height: 12px;
+  width: 30px;
+  height: 30px;
   border-radius: 200px;
 }
 
 .trois2 {
   grid-area: b;
   background: black;
-  width: 12px;
-  height: 12px;
+  width: 30px;
+  height: 30px;
   border-radius: 200px;
 }
 
 .trois3 {
   grid-area: c;
   background: black;
-  width: 12px;
-  height: 12px;
+  width: 30px;
+  height: 30px;
   border-radius: 200px;
 }
 
@@ -145,41 +144,41 @@ main {
   grid-template-areas:
     "a b"
     "c d";
-  width: 85px;
-  height: 85px;
+  width: 220px;
+  height: 220px;
   border: 3px black solid;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 .quatre1 {
   grid-area: a;
   background: black;
-  width: 12px;
-  height: 12px;
+  width: 30px;
+  height: 30px;
   border-radius: 200px;
 }
 
 .quatre2 {
   grid-area: b;
   background: black;
-  width: 12px;
-  height: 12px;
+  width: 30px;
+  height: 30px;
   border-radius: 200px;
 }
 
 .quatre3 {
   grid-area: c;
   background: black;
-  width: 12px;
-  height: 12px;
+  width: 30px;
+  height: 30px;
   border-radius: 200px;
 }
 
 .quatre4 {
   grid-area: d;
   background: black;
-  width: 12px;
-  height: 12px;
+  width: 30px;
+  height: 30px;
   border-radius: 200px;
 }
 
@@ -193,49 +192,49 @@ main {
     "a . b"
     ". c ."
     "d . e";
-  width: 85px;
-  height: 85px;
+  width: 220px;
+  height: 220px;
   border: 3px black solid;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 .cinq1 {
   grid-area: a;
   background: black;
-  width: 12px;
-  height: 12px;
+  width: 30px;
+  height: 30px;
   border-radius: 200px;
 }
 
 .cinq2 {
   grid-area: b;
   background: black;
-  width: 12px;
-  height: 12px;
+  width: 30px;
+  height: 30px;
   border-radius: 200px;
 }
 
 .cinq3 {
   grid-area: c;
   background: black;
-  width: 12px;
-  height: 12px;
+  width: 30px;
+  height: 30px;
   border-radius: 200px;
 }
 
 .cinq4 {
   grid-area: d;
   background: black;
-  width: 12px;
-  height: 12px;
+  width: 30px;
+  height: 30px;
   border-radius: 200px;
 }
 
 .cinq5 {
   grid-area: e;
   background: black;
-  width: 12px;
-  height: 12px;
+  width: 30px;
+  height: 30px;
   border-radius: 200px;
 }
 
@@ -249,57 +248,57 @@ main {
     "a  b"
     "c  d"
     "e  f";
-  width: 85px;
-  height: 85px;
+  width: 220px;
+  height: 220px;
   border: 3px black solid;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 .six1 {
   grid-area: a;
   background: black;
-  width: 12px;
-  height: 12px;
+  width: 30px;
+  height: 30px;
   border-radius: 200px;
 }
 
 .six2 {
   grid-area: b;
   background: black;
-  width: 12px;
-  height: 12px;
+  width: 30px;
+  height: 30px;
   border-radius: 200px;
 }
 
 .six3 {
   grid-area: c;
   background: black;
-  width: 12px;
-  height: 12px;
+  width: 30px;
+  height: 30px;
   border-radius: 200px;
 }
 
 .six4 {
   grid-area: d;
   background: black;
-  width: 12px;
-  height: 12px;
+  width: 30px;
+  height: 30px;
   border-radius: 200px;
 }
 
 .six5 {
   grid-area: e;
   background: black;
-  width: 12px;
-  height: 12px;
+  width: 30px;
+  height: 30px;
   border-radius: 200px;
 }
 
 .six6 {
   grid-area: f;
   background: black;
-  width: 12px;
-  height: 12px;
+  width: 30px;
+  height: 30px;
   border-radius: 200px;
 }
 
@@ -311,7 +310,7 @@ main {
   font-family: monospace;
   font-size: large;
   font-weight: 800;
-  border-radius: 10px;
+  border-radius: 20px;
   border: 3px solid black;
   opacity: 70%;
 }
